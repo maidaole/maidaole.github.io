@@ -4,4 +4,20 @@
 }
 .dark .btn-dark {
   background-position: right !important;
+}
+
+/* 确保菜单可见 */
+.nav-wrapper {
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+}
+
+/* 修复移动端菜单 */
+@media (max-width: 1024px) {
+  html.open .nav-wrapper {
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+  }
 } 
