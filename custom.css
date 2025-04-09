@@ -1,6 +1,6 @@
 /* 自定义 CSS 来覆盖主题中的路径问题 */
 .btn-dark {
-  background: url('https://maidaole.github.io/theme.png') left center / auto theme('spacing.6') no-repeat !important;
+  background: url('../theme.png') left center / auto theme('spacing.6') no-repeat !important;
 }
 .dark .btn-dark {
   background-position: right !important;
